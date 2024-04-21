@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1713708581540') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-html5:before {
+  content: "\f01ee";
+}
+
+.icon-languagejavascript:before {
+  content: "\e913";
+}
+
+.icon-csdn:before {
+  content: "\e60a";
+}
+
+.icon-github:before {
+  content: "\e718";
+}
+
+.icon-language-python:before {
+  content: "\e7c9";
+}
+
+.icon-mysql:before {
+  content: "\e667";
+}
+
+.icon-google:before {
+  content: "\e87a";
+}
+
+.icon-alipay:before {
+  content: "\e87c";
+}
+
+.icon-instagram:before {
+  content: "\e87f";
+}
+
+.icon-QQ:before {
+  content: "\e882";
+}
+
+.icon-frontend:before {
+  content: "\e61a";
+}
+
+.icon-vuejs:before {
+  content: "\e849";
+}
+
+.icon-wechat:before {
+  content: "\e565";
+}
+
+.icon-java:before {
+  content: "\e614";
+}
+
+.icon-zhihu:before {
+  content: "\e7e9";
+}
+
+.icon-css:before {
+  content: "\e7e8";
+}
+
+.icon-language-c:before {
+  content: "\f4c6";
+}
+
+.icon-react:before {
+  content: "\e712";
+}
+
+.icon-markdown:before {
+  content: "\ec04";
+}
+
+.icon-search:before {
+  content: "\e67d";
+}
+
+.icon-wechat1:before {
+  content: "\e65b";
+}
+
+.icon-terminal:before {
+  content: "\e6ac";
+}
+
+.icon-bilibili:before {
+  content: "\e656";
+}
+
+.icon-language-cpp:before {
+  content: "\e898";
+}
+
+.icon-huaban-2:before {
+  content: "\eaf4";
+}
+
+.icon-spring:before {
+  content: "\e517";
+}
+
+.icon-OneMangoDB:before {
+  content: "\e613";
+}
+
+.icon-tiktok:before {
+  content: "\e60c";
+}
+
+.icon-a-language_c:before {
+  content: "\e624";
+}
+
+.icon-database:before {
+  content: "\e516";
+}
+
+.icon-xiaohongshu:before {
+  content: "\e609";
+}
+
