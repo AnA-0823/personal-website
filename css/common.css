@@ -18,11 +18,19 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: transparent;
+    background: #1f242d;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+}
+
+.header .divider {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-bottom: 1px solid #888989;
 }
 
 .header-logo {
@@ -60,7 +68,7 @@ body {
     color: #b7b2a9;
 }
 
-.divider {
+.footer .divider {
     border-bottom: 1px solid #888989;
     margin: 10px 0 0;
 }
