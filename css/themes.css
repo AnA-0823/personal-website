@@ -1,0 +1,61 @@
+.black-theme {
+    --background-color: #1f242d;
+    --font-color: #fff;
+    --header-background: #1f242d;
+    --header-logo: #fff;
+    --header-logo-hover: #b7b2a9;
+    --navbar-link: #fff;
+    --navbar-link-hover: #b7b2a9;
+    --header-divider: #888989;
+    --footer-divider:#888989;
+    --footer-logo: #fff;
+    --footer-logo-hover: #b7b2a9;
+    --home-span:#b7b2a9;
+    --home-image-shadow:#b7b2a9;
+    --home-social-media:#b7b2a9;
+    --home-social-media-hover-background:#b7b2a9;
+    --home-social-media-hover-color:#1f242d;
+    --home-social-media-hover-shadow:#b7b2a9;
+    --home-botton-background:#b7b2a9;
+    --home-botton-border:#b7b2a9;
+    --home-botton-shadow:#b7b2a9;
+    --home-botton-color:#1f242d;
+    --home-botton-hover-background:#1f242d;
+    --home-botton-hover-shadow:#b7b2a9;
+    --home-botton-hover-color:#b7b2a9;
+    --developing-gear1-color:#b7b2a9;
+    --developing-gear2-color:#b7b2a9;
+    --developing-gear3-color:#b7b2a9;
+    --developing-gear-center-color:#1f242d;
+}
+
+.white-theme {
+    --background-color: #fff;
+    --font-color: #1f2328;
+    --header-background: #fff;
+    --header-logo: #1f2328;
+    --header-logo-hover: #b7b2a9;
+    --navbar-link: #1f2328;
+    --navbar-link-hover: #b7b2a9;
+    --header-divider: #888989;
+    --footer-divider:#888989;
+    --footer-logo: #1f2328;
+    --footer-logo-hover: #b7b2a9;
+    --home-span:#b7b2a9;
+    --home-image-shadow:#1f2328;
+    --home-social-media:#1f2328;
+    --home-social-media-hover-background:#1f2328;
+    --home-social-media-hover-color:#b7b2a9;
+    --home-social-media-hover-shadow:#1f2328;
+    --home-botton-background:#1f2328;
+    --home-botton-border:#1f2328;
+    --home-botton-shadow:#1f2328;
+    --home-botton-color:#b7b2a9;
+    --home-botton-hover-background:#b7b2a9;
+    --home-botton-hover-shadow:#1f2328;
+    --home-botton-hover-color:#1f2328;
+    --developing-gear1-color:#1f2328;
+    --developing-gear2-color:#1f2328;
+    --developing-gear3-color:#1f2328;
+    --developing-gear-center-color:#fff;
+}

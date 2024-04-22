@@ -1,3 +1,5 @@
+@import "themes.css";
+
 .home {
     position: relative;
     width: 100%;
@@ -28,7 +30,7 @@
 }
 
 .home-content h3 span {
-    color: #b7b2a9;
+    color: var(--home-span);
 }
 
 .home-content h1 {
@@ -52,7 +54,7 @@
     max-height: 450px;
     border-radius: 50%;
     margin-right: -20px;
-    box-shadow: 0 0 20px #b7b2a9;
+    box-shadow: 0 0 20px var(--home-image-shadow);
     opacity: 0;
     animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
     animation-delay: 2s;
@@ -66,7 +68,7 @@
     height: 45px;
     background: transparent;
     border-radius: 50%;
-    color: #b7b2a9;
+    color: var(--home-social-media);
     text-decoration: none;
     margin: 30px 10px 30px 0;
     transition: 0.5s ease;
@@ -80,21 +82,21 @@
 }
 
 .social-media a:hover {
-    background: #b7b2a9;
-    color: #1f242d;
-    box-shadow: 0 0 20px #b7b2a9;
+    background: var(--home-social-media-hover-background);
+    color: var(--home-social-media-hover-color);
+    box-shadow: 0 0 20px var(--home-social-media-hover-shadow);
 }
 
 .button {
     display: inline-block;
     padding: 12px 28px;
-    background: #b7b2a9;
+    background: var(--home-botton-background);
     text-decoration: none;
-    border: 2px solid #b7b2a9;
+    border: 2px solid var(--home-botton-border);
     border-radius: 40px;
-    box-shadow: 0 0 10px #b7b2a9;
+    box-shadow: 0 0 10px var(--home-botton-shadow);
     font-size: 16px;
-    color: #1f242d;
+    color: var(--home-botton-color);
     letter-spacing: 1px;
     font-weight: 600;
     transition: 0.5s ease;
@@ -105,7 +107,7 @@
 
 .button:hover,
 .button:active {
-    background: #1f242d;
-    color: #b7b2a9;
-    box-shadow: 0 0 20px #b7b2a9;
+    background: var(--home-botton-hover-background);
+    color: var(--home-botton-hover-color);
+    box-shadow: 0 0 20px var(--home-botton-hover-shadow);
 }

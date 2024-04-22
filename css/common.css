@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "themes.css";
 
 * {
     margin: 0;
@@ -8,8 +9,9 @@
 }
 
 body {
-    background: #1f242d;
-    color: #fff;
+    background: var(--background-color);
+    color: var(--font-color);
+    transition: all 0.5s;
 }
 
 .header {
@@ -18,7 +20,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: #1f242d;
+    background: var(--header-background);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,12 +32,12 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    border-bottom: 1px solid #888989;
+    border-bottom: 1px solid var(--header-divider);
 }
 
 .header-logo {
     font-size: 25px;
-    color: #fff;
+    color: var(--header-logo);
     text-decoration: none;
     font-weight: 600;
     cursor: default;
@@ -46,13 +48,13 @@ body {
 
 .header-logo:hover,
 .header-logo:active {
-    color: #b7b2a9;
+    color: var(--header-logo-hover);
 }
 
 .navbar a {
     display: inline-block;
     font-size: 18px;
-    color: #fff;
+    color: var(--navbar-link);
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
@@ -65,17 +67,17 @@ body {
 
 .navbar a:hover,
 .navbar a.active {
-    color: #b7b2a9;
+    color: var(--navbar-link-hover);
 }
 
 .footer .divider {
-    border-bottom: 1px solid #888989;
+    border-bottom: 1px solid var(--footer-divider);
     margin: 10px 0 0;
 }
 
 .footer-logo {
     font-size: 15px;
-    color: #fff;
+    color: var(--footer-logo);
     text-decoration: none;
     font-weight: 500;
     cursor: default;
@@ -84,7 +86,7 @@ body {
 
 .footer-logo:hover,
 .footer-logo:active {
-    color: #b7b2a9;
+    color: var(--footer-logo-hover);
 }
 
 @keyframes slideRight {
@@ -141,7 +143,7 @@ body {
     0% {
         transform: translateY(0);
     }
-    50%{
+    50% {
         transform: translateY(30px);
     }
     100% {

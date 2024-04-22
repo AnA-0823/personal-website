@@ -1,3 +1,5 @@
+@import "themes.css";
+
 .developing {
     position: relative;
     width: 100%;
@@ -76,7 +78,7 @@
 }
 
 .gear:nth-of-type(1) div {
-    background: #b7b2a9;
+    background: var(--developing-gear1-color);
     position: absolute;
     width: 125px;
     height: 125px;
@@ -86,7 +88,7 @@
 }
 
 .gear:nth-of-type(2) div {
-    background: #b7b2a9;
+    background: var(--developing-gear2-color);
     position: absolute;
     width: 100px;
     height: 100px;
@@ -96,7 +98,7 @@
 }
 
 .gear:nth-of-type(3) div {
-    background: #b7b2a9;
+    background: var(--developing-gear3-color);
     position: absolute;
     width: 150px;
     height: 150px;
@@ -124,7 +126,7 @@
 .gear:after {
     position: absolute;
     content: '';
-    background: #1f242d;
+    background: var(--developing-gear-center-color);
     border-radius: 100%;
     top: 50%;
     left: 50%;
