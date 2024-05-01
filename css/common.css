@@ -19,7 +19,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
+    padding: 20px 5%;
     background: var(--header-background);
     display: flex;
     justify-content: space-between;
@@ -75,7 +75,6 @@ body {
     color: var(--themes-color);
     text-decoration: none;
     font-weight: 500;
-    margin-right: 35px;
     cursor: default;
     transition: 0.5s ease;
     opacity: 0;
@@ -95,7 +94,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 70px 10% 0;
+    padding: 100px 10% 0;
 }
 
 .popup {
@@ -158,6 +157,58 @@ body {
 .footer-logo:hover,
 .footer-logo:active {
     color: var(--footer-logo-hover);
+}
+
+.social-media a {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background: transparent;
+    border-radius: 50%;
+    color: var(--social-media);
+    text-decoration: none;
+    margin: 30px 10px 30px 0;
+    transition: 0.5s ease;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(0.1s * var(--i));
+}
+
+.social-media a span {
+    font-size: 45px;
+}
+
+.social-media a:hover {
+    background: var(--social-media-hover-background);
+    color: var(--social-media-hover-color);
+    box-shadow: 0 0 20px var(--social-media-hover-shadow);
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 28px;
+    background: var(--button-background);
+    text-decoration: none;
+    border: 2px solid var(--button-border);
+    border-radius: 40px;
+    box-shadow: 0 0 10px var(--button-shadow);
+    font-size: 16px;
+    color: var(---button-color);
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.5s ease;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+}
+
+.button:hover,
+.button:active {
+    background: var(--button-hover-background);
+    color: var(--button-hover-color);
+    box-shadow: 0 0 20px var(--button-hover-shadow);
 }
 
 @keyframes slideRight {

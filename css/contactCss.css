@@ -1,0 +1,9 @@
+@import "themes.css";
+
+.contact-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1s;
+}
